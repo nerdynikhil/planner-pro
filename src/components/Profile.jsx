@@ -14,6 +14,7 @@ export default function Profile() {
         getData.then(
             function (response) {
                 setuserDetails(response)
+                
             },
             function (error) {
                 console.log(error)
